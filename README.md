@@ -1,16 +1,16 @@
-# PicoSystem Boilerplate
+# PicoSystem Raycaster
 
-If you're starting a project in your own GitHub repository, this boilerplate will show you how to set it up.
+3DSage's OpenGL raycaster adapted for Pimoroni PicoSystem.
 
-You should have:
+## How to Build
+ - Install the PicoSystem build tools as per the [wiki instructions](https://wiki.picosystem.com/c++/getting-started).
+ - Clone the repo and ```cd``` into it.
+ - ```mkdir build```
+ - ```cd build```
+ - ```cmake ..```
+ - ```make```
+ - Upload the .uf2 file to your PicoSystem
 
-- CMakeLists.txt
-- main.cpp (and/or your sources)
-- pico_sdk_import.cmake - Helper to find the Pico SDK
-- picosystem_sdk_import.cmake  - Helper to find the PicoSystem SDK
-
-
-You should also have the Pico SDK and PicoSystem SDK's in directories alongside this one:
-
-- PicoSystem SDK - https://github.com/pimoroni/picosystem
-- Pico SDK - https://github.com/raspberrypi/pico-sdk/
+## Wall Texture
+Wall texture (below) is from a DuckDuckGo search with Public Domain filter applied. Neither I nor 3DSage created it.
+![Wall texture preview](https://github.com/ymksw/Picosystem-Raycaster/blob/95ffdad6a0bb0c491917d88e246e9d01fabafbc6/happy.jpg)
