@@ -2,7 +2,7 @@
 //BASED ON 3DSAGE'S RAYCASTER V1
 using namespace picosystem;
 
-#include "happy.h"
+#include "wall.h"
 
 #include <math.h>
 
